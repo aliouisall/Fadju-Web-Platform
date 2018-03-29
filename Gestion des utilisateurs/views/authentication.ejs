@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Authentification</title>
+	</head>
+	<body>
+		<div id="mainWrapper">
+			<form action="/" method="POST">
+				<label for="mail">Login</label>
+				<input type="text" name="mail" id="mail" value="<%= qs.mail%>"> </br> </br>
+				<label for="passwd">Mot de passe</label>
+				<input type="password" name="passwd" id="passwd" value="<%= qs.passwd%>"> </br> </br>
+				<input type="submit" name="submit" value="Se connecter">
+			</form>
+		</div>
+	</body>
+</html>
