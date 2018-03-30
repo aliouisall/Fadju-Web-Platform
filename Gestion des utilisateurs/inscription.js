@@ -38,8 +38,8 @@ app.post('/', urlencodedParser, function(request, response) {
 			    port: 587,
 			    secure: false, // true for 465, false for other ports
 			    auth: {
-			        user: 'aliouibnibrahim@gmail.com',
-			        pass: '6z0uW#1Dqeov!mMjEV57#L'
+			        user: '',
+			        pass: ''
 			    }
 			});
 
