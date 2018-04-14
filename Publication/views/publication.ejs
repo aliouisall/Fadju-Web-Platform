@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Inscription</title>
+	</head>
+	<style type="text/css">
+		html, body {
+			height: 100%;
+		}
+		body {
+			display: flex;
+		}
+		#mainWrapper {
+			margin: auto;
+		}
+	</style>
+	<body>
+		<div id="mainWrapper">
+			<form method="post" action="/">
+				<label for="maladie">Maladie</label>
+				<input type="text" name="maladie" id="maladie" value="<%= qs.maladie%>"> </br> </br>
+				<label for="cout">Coût</label>
+				<input type="text" name="cout" id="cout" value="<%= qs.cout%>"> </br> </br>
+				<label for="besoins">Besoins</label>
+				<input type="text" name="besoins" id="besoins" value="<%= qs.besoins%>"> </br> </br>
+				<input type="submit" name="submit" value="Valider">
+			</form>
+		</div>
+	</body>
+</html>
